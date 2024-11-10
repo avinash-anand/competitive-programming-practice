@@ -1,11 +1,10 @@
-package com.example.leetcode;
+package com.example.leetcode.learn;
 
-import com.example.leetcode.learn.Problem3238;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class ProblemNum3238Test {
+class Problem3238Test {
 
     @Test
     void sampleTest1() {
