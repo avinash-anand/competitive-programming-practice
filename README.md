@@ -1,5 +1,7 @@
 # competitive-programming
  practice here
+ ![build status](https://github.com/avinash-anand/competitive-programming-practice/actions/workflows/build.yml/badge.svg)
+
 
 https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3238/
 https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3237/
