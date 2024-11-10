@@ -1,5 +1,6 @@
 package com.example.leetcode;
 
+import com.example.leetcode.learn.ProblemNum3238;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

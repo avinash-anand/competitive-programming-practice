@@ -1,4 +1,4 @@
-package com.example.leetcode;
+package com.example.leetcode.learn;
 
 /**
  * https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3238/
