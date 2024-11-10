@@ -22,7 +22,7 @@ package com.example.leetcode.learn;
  * nums[i] is either 0 or 1.
  */
 
-public class ProblemNum3238 {
+public class Problem3238 {
     public int findMaxConsecutiveOnes(int[] nums) {
         int maxOnes = 0;
         int ones = 0;
