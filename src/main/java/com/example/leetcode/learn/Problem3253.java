@@ -1,7 +1,5 @@
 package com.example.leetcode.learn;
 
-import java.util.Arrays;
-
 /**
  * https://leetcode.com/explore/learn/card/fun-with-arrays/525/inserting-items-into-an-array/3253/
  * Merge Sorted Array
@@ -50,10 +48,35 @@ import java.util.Arrays;
 
 public class Problem3253 {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
+        if (m == 0) {
+            System.arraycopy(nums2, 0, nums1, 0, n);
+            return;
+        }
+        if (n == 0) {
+            return;
+        }
         int[] temp = new int[m + n];
-        System.arraycopy(nums1, 0, temp, 0, m);
-        System.arraycopy(nums2, 0, temp, m, n);
-        Arrays.sort(temp);
+        for (int i = 0, j = 0, k = 0; i < m + n; ) {
+            if (j < m && k < n) {
+                if (nums1[j] < nums2[k]) {
+                    temp[i] = nums1[j];
+                    i++;
+                    j++;
+                } else {
+                    temp[i] = nums2[k];
+                    i++;
+                    k++;
+                }
+            } else if (j < m) {
+                temp[i] = nums1[j];
+                i++;
+                j++;
+            } else if (k < n) {
+                temp[i] = nums2[k];
+                i++;
+                k++;
+            }
+        }
         System.arraycopy(temp, 0, nums1, 0, m + n);
     }
 }

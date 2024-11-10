@@ -39,4 +39,15 @@ class Problem3253Test {
         assertArrayEquals(expected, nums1);
     }
 
+    @Test
+    void testcase4() {
+        int[] nums1 = {2, 0};
+        int m = 1;
+        int[] nums2 = {1};
+        int n = 1;
+        int[] expected = {1, 2};
+        new Problem3253().merge(nums1, m, nums2, n);
+        assertArrayEquals(expected, nums1);
+    }
+
 }
