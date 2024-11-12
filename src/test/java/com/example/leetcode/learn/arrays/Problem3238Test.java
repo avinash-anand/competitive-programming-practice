@@ -1,4 +1,4 @@
-package com.example.leetcode.learn;
+package com.example.leetcode.learn.arrays;
 
 import org.junit.jupiter.api.Test;
 

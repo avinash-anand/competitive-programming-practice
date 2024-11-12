@@ -1,4 +1,4 @@
-package com.example.leetcode.learn;
+package com.example.leetcode.learn.arrays;
 
 /**
  * https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3248/
