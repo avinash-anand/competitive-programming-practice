@@ -13,4 +13,6 @@
 - https://leetcode.com/explore/learn/card/fun-with-arrays/527/searching-for-items-in-an-array/3250/
 - https://leetcode.com/explore/learn/card/fun-with-arrays/527/searching-for-items-in-an-array/3251/
 - https://leetcode.com/explore/learn/card/fun-with-arrays/511/in-place-operations/3259/
+- https://leetcode.com/explore/learn/card/fun-with-arrays/511/in-place-operations/3258/
+- https://leetcode.com/explore/learn/card/fun-with-arrays/511/in-place-operations/3157/
 - 
