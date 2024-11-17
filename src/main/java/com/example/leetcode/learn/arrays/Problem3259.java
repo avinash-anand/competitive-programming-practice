@@ -1,7 +1,5 @@
 package com.example.leetcode.learn.arrays;
 
-import java.util.Arrays;
-
 /**
  * Replace Elements with Greatest Element on Right Side
  * <p>
@@ -44,15 +42,12 @@ public class Problem3259 {
             if (i == arr.length - 1) {
                 max = arr[i];
                 arr[i] = -1;
-//                System.out.println("max = " + max + ", arr = " + Arrays.toString(arr));
             } else if (arr[i] >= max) {
                 var temp = max;
                 max = arr[i];
                 arr[i] = temp;
-//                System.out.println("max = " + max + ", arr = " + Arrays.toString(arr));
             } else {
                 arr[i] = max;
-//                System.out.println("max = " + max + ", arr = " + Arrays.toString(arr));
             }
         }
         return arr;
