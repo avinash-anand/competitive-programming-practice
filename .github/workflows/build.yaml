@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     services:
-      postgres.local:
+      postgres:
         image: postgres:latest
         env:
           POSTGRES_USER: postgres
@@ -38,4 +38,4 @@ jobs:
         run: mvn clean install
       - name: test postgres
         run: |
-          psql -h postgres.local -U postgres -d postgres -c "SELECT 1;"
+          psql -h postgres -U postgres -d postgres -c "SELECT 1;"
