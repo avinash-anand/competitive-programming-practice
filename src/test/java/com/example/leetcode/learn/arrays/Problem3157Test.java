@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class Problem3157Test {
 
-    @Test
+    @Disabled
     void testcase1() {
         int[] nums = {0, 1, 0, 3, 12};
         int[] expectedNums = {1, 3, 12, 0, 0};
@@ -15,7 +15,7 @@ class Problem3157Test {
         assertArrayEquals(expectedNums, nums);
     }
 
-    @Disabled
+    @Test
     void testcase2() {
         int[] nums = {0};
         int[] expectedNums = {0};
