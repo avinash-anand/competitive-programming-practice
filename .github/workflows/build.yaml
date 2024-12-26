@@ -26,6 +26,8 @@ jobs:
           --health-interval 10s 
           --health-timeout 5s 
           --health-retries 5
+        network-aliases:
+          - postgres.local
 
     steps:
       - uses: actions/checkout@v4
@@ -38,4 +40,4 @@ jobs:
         run: mvn clean install
       - name: test postgres
         run: |
-          psql -h postgres -U postgres -d postgres -c "SELECT 1;"
+          psql -h postgres.local -U postgres -d postgres -c "SELECT 1;"
